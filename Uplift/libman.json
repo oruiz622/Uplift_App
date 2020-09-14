@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@5.13.1",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "css/all.min.css",
+        "css/all.css"
+      ]
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/",
+      "files": [
+        "toastr.min.js",
+        "toastr.css",
+        "toastr.min.css",
+        "toastr.js.map"
+      ]
+    },
+    {
+      "library": "sweetalert@1.1.3",
+      "destination": "wwwroot/lib/sweetalert/"
+    },
+    {
+      "library": "datatables.net@1.10.16",
+      "destination": "wwwroot/lib/datatables.net/",
+      "files": [
+        "jquery.dataTables.min.js",
+        "jquery.dataTables.js"
+      ]
+    },
+    {
+      "library": "jquery.serializeJSON@2.9.0",
+      "destination": "wwwroot/lib/jquery.serializeJSON/",
+      "files": [
+        "jquery.serializejson.min.js",
+        "jquery.serializejson.js"
+      ]
+    }
+  ]
+}
